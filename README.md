@@ -1,5 +1,5 @@
 # Chan_RSFC_Nodes
-RSFC node set used in Chan et al. 2014 PNAS
+RSFC node set used in [Chan et al. 2014](http://www.pnas.org/content/111/46/E4997)
 
 1. **./gifti_single_column_power_labeled_nodes** contains the gifti filess (L/R) to visualize the 441 nodes with Power et al. 2011 system color-scheme. Each gifti file contains one column of data, where vertices that belong to a node is numbered based on which Power System they belong to. The color-scheme is specified in the header portion of the gifti file. When these files are loaded into HCP Workbench, all the nodes are shown on the same map. 
 
