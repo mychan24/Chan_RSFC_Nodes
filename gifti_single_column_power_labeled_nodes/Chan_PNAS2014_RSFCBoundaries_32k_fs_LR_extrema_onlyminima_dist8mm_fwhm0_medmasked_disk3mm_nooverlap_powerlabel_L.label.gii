@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GIFTI SYSTEM "http://www.nitrc.org/frs/download.php/1594/gifti.dtd">
+<GIFTI
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+      Version="1.0"
+      NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Caret-Version]]></Name>
+         <Value><![CDATA[5.65]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Date]]></Name>
+         <Value><![CDATA[2014-02-18T17:04:49]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[UserName]]></Name>
+         <Value><![CDATA[mxc108120]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[encoding]]></Name>
+         <Value><![CDATA[XML_BASE64_GZIP]]></Value>
+      </MD>
+   </MetaData>
+    <LabelTable>
+      <Label Key="0" Red="0.667" Green="0.667" Blue="0.667" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="1" Green="1" Blue="1" Alpha="1"><![CDATA[u1_Unassigned]]></Label>
+      <Label Key="2" Red="0.502" Green="0.502" Blue="0.502" Alpha="1"><![CDATA[u2_Ventral_frontal_temporal]]></Label>
+      <Label Key="3" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[a3_Default_mode]]></Label>
+      <Label Key="4" Red="0" Green="1" Blue="1" Alpha="1"><![CDATA[a4_"Hand"_somatosensory-motor]]></Label>
+      <Label Key="5" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[a5_Visual]]></Label>
+      <Label Key="6" Red="0.961" Green="0.961" Blue="0.059" Alpha="1"><![CDATA[a6_Fronto-parietal_task_control]]></Label>
+      <Label Key="7" Red="0" Green="0.502" Blue="0.502" Alpha="1"><![CDATA[a7_Ventral_attention]]></Label>
+      <Label Key="8" Red="0" Green="0.275" Blue="0.157" Alpha="1"><![CDATA[a8_Caudate_putamen]]></Label>
+      <Label Key="9" Red="1" Green="0.722" Blue="0.827" Alpha="1"><![CDATA[a9_Superior_temporal_gyrus]]></Label>
+      <Label Key="10" Red="0.675" Green="0.675" Blue="0.675" Alpha="1"><![CDATA[u10_Inferior_temporal_pole]]></Label>
+      <Label Key="11" Red="0.373" Green="0.373" Blue="0.373" Alpha="1"><![CDATA[u11_OFC]]></Label>
+      <Label Key="12" Red="0.824" Green="0.824" Blue="0.824" Alpha="1"><![CDATA[u12_Inferior_anterior_insula]]></Label>
+      <Label Key="13" Red="0.631" Green="0.631" Blue="0.631" Alpha="1"><![CDATA[u13_Frontal_pole]]></Label>
+      <Label Key="14" Red="0.502" Green="0" Blue="0.502" Alpha="1"><![CDATA[a14_Cingulo-opercular_task_control]]></Label>
+      <Label Key="15" Red="0" Green="0.863" Blue="0" Alpha="1"><![CDATA[a15_Dorsal_attention]]></Label>
+      <Label Key="16" Red="1" Green="0.502" Blue="0" Alpha="1"><![CDATA[a16_"Mouth"_somatosensory-motor]]></Label>
+      <Label Key="17" Red="0.863" Green="0.863" Blue="0.863" Alpha="1"><![CDATA[u17_Lateral_temporal_pole]]></Label>
+      <Label Key="18" Red="0.765" Green="0.255" Blue="0.173" Alpha="1"><![CDATA[a18_Thalamus]]></Label>
+      <Label Key="19" Red="0.353" Green="0.353" Blue="0.353" Alpha="1"><![CDATA[u19_Lateral_occipito-temporal]]></Label>
+      <Label Key="20" Red="0" Green="0" Blue="0" Alpha="1"><![CDATA[a20_Salience]]></Label>
+      <Label Key="21" Red="1" Green="0.973" Blue="0.706" Alpha="1"><![CDATA[a21_"Unknown"_medial_temporal_parietal]]></Label>
+      <Label Key="22" Red="0" Green="0.424" Blue="1" Alpha="1"><![CDATA[a22_"Unknown"_with_memory_retrieval_activity]]></Label>
+      <Label Key="23" Red="0" Green="0.157" Blue="0.314" Alpha="1"><![CDATA[a23_"Hippocampus"]]></Label>
+      <Label Key="24" Red="1" Green="0" Blue="1" Alpha="1"><![CDATA[a24_Auditory]]></Label>
+      <Label Key="25" Red="0.773" Green="0.773" Blue="0.773" Alpha="1"><![CDATA[u25_Inferior_insula]]></Label>
+      <Label Key="26" Red="1" Green="0.706" Blue="0.353" Alpha="1"><![CDATA[a26_"Unknown"_similar_to_Nelson_2010]]></Label>
+   </LabelTable>
+   <DataArray Intent="NIFTI_INTENT_LABEL"
+              DataType="NIFTI_TYPE_INT32"
+              ArrayIndexingOrder="RowMajorOrder"
+              Dimensionality="1"
+              Dim0="32492"
+              Encoding="GZipBase64Binary"
+              Endian="LittleEndian"
+              ExternalFileName=""
+              ExternalFileOffset="0">
+      <MetaData>
+         <MD>
+            <Name><![CDATA[UniqueID]]></Name>
+            <Value><![CDATA[{75dce8a3-05d0-4eec-a449-f27dda4ecdc1}]]></Value>
+         </MD>
+      </MetaData>
+      <Data>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</Data>
+   </DataArray>
+</GIFTI>
