@@ -1,5 +1,5 @@
-# Chan_RSFC_Nodes
-This package contains functional brain area (nodes) of the cerebral cortex generated from functional boundary map of younger adults (Wig et al. 2014). Functional boundary maps identify locations where resting-state functional correlation (RSFC) patterns exhibit abrupt transitions across the cortical surface. These areal nodes were created by locating the local minima of RSFC transition as putative functional areal centers, and creating disks around the centers as areal nodes (3mm raidus). Details of this node set is fully described in Chan et al. 2014 PNAS. Please cite Chan et al. 2014 when using this node set.
+# Chan 2014 RSFC Nodes
+This package contains functional brain area (nodes) of the cerebral cortex generated from functional boundary map of younger adults (Wig et al. 2014; N nodes=441). Functional boundary maps identify locations where resting-state functional correlation (RSFC) patterns exhibit abrupt transitions across the cortical surface. These areal nodes were created by locating the local minima of RSFC transition as putative functional areal centers, and creating disks around the centers as areal nodes (3mm raidus). Details of this node set is fully described in Chan et al. 2014 PNAS. Please cite Chan et al. 2014 when using this node set.
 
 [Chan et al. 2014](http://www.pnas.org/content/111/46/E4997)
 
