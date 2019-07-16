@@ -13,16 +13,16 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 3. **./gifti_single_column_numbered_nodes** contains the gifti files (L/R) where nodes are represented on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
 
 4. **Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
-   * NodeID                 Node numbered from 1 to 441. 
-   * MNI_x/y/z             Corresponding MNI coordinates of the node's center.
-   * Desikan-Killiany_aparc_label
-   * Chan_system_type:     Systems are assigned to sensory-motor or association systems. See
+   * **NodeID:**                 Node numbered from 1 to 441. 
+   * **MNI_x/y/z:**             Corresponding MNI coordinates of the node's center.
+   * **Desikan-Killiany_aparc_label**
+   * **Chan_system_type:**     Systems are assigned to sensory-motor or association systems. See
                            Chan et al. 2014 for details. 
-   * Power_system_label:   Node's system label in ref to Power et al. 2011
-   * Power_red/green/blue: Node's system color for visualization in ref to Power et al. 2011
-   * Vertex#:              Vertex number on fs_LR surface
-   * Hemisphere:           L/R (vertex # is hemisphere specific)
-   * Chan_JON2017:         After masking out area of low signal intensity, a subset of 349 
+   * **Power_system_label:**   Node's system label in ref to Power et al. 2011
+   * **Power_red/green/blue:** Node's system color for visualization in ref to Power et al. 2011
+   * **Vertex:**              Vertex number on fs_LR surface
+   * **Hemisphere:**           L/R (vertex # is hemisphere specific)
+   * **Chan_JON2017:**         After masking out area of low signal intensity, a subset of 349 
                            nodes are available (1=in 349 subset, 0=not in 349 subset). 
                            (Used in Chan et al. 2017 JON; Chan et al. 2018 PNAS). 
 
