@@ -10,7 +10,9 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 
 2. **./gifti_multiple_columns** contains the gifti files (L/R) where individual nodes are represented on separate maps (separate columns in gifti data). The L hemisphere contains 221 nodes, and the R hemisphere contains 220 nodes. When these files are loaded into HCP Workbench, each node will be represented on their own map. 
 
-3. **Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
+3. **./gifti_single_column_numbered_nodes** contains the gifti files (L/R) where nodes are represented on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
+
+4. **Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
    * Node#                 Node numbered from 1 to 441. 
    * MNI_x/y/z             Corresponding MNI coordinates of the node's center.
    * Desikan-Killiany_aparc_label
