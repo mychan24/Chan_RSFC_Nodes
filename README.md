@@ -7,7 +7,7 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 
 **Files:**
 
-## GIFTI
+## GIFTI (./gifti)
 The original nodes were made in gifti format (surfaces of L/R hemispheres). Thus it has more versions for visualiztion purposes. 
 
 1. **./gifti_single_column_power_labeled_nodes** contains the gifti filess (L/R) to visualize the 441 nodes with Power et al. 2011 system color-scheme. Each gifti file contains one column of data, where vertices that belong to a node is numbered based on which Power System they belong to. The color-scheme is specified in the header portion of the gifti file. When these files are loaded into HCP Workbench, all the nodes are shown on the same map. 
@@ -17,8 +17,8 @@ The original nodes were made in gifti format (surfaces of L/R hemispheres). Thus
 3. **./gifti_single_column_numbered_nodes** contains the gifti files (L/R) where nodes are represented on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
 
 
-## GIFTI
-**./cifti/Chan_PNAS2014_411nodes_32k_fs_LR.dtseries.nii - nodes are on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
+## CIFTI (./cifti)
+1. **./Chan_PNAS2014_411nodes_32k_fs_LR.dtseries.nii** is a CIFTI file where all the nodes are on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
 
 
 ## Meta-data
