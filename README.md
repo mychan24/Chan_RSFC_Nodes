@@ -3,7 +3,7 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 
 [Chan et al. 2014](http://www.pnas.org/content/111/46/E4997)
 
-<img src="https://github.com/mychan24/Chan_RSFC_Nodes/blob/master/png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png" alt="RSFC 441 nodes" width="509" height="331">
+<img src="png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png" alt="RSFC 441 nodes" width="509" height="331">
 
 **Files:**
 
