@@ -25,7 +25,10 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
    * **Chan_JON2017:**         After masking out area of low signal intensity, a subset of 349 
                            nodes are available (1=in 349 subset, 0=not in 349 subset). 
                            (Used in Chan et al. 2017 JON; Chan et al. 2018 PNAS). 
-
+**Code:**
+1. **./code/Chan2014_NodeGeneration.sh** is a bash wrapper to generate nodset from Wig 2014 boudnary map. 
+2. **./code/mask_and_export_minima.m** is a matlab script sourced by `Chan2014_NodeGeneration.sh` to export the minima to a text file. 
+3. **./code/medialmask_${hemisphere}_fsmedial.fsLR.func.gii** are FreeSurfer medial walls in GIFTI files provided here for convenience. These can also be extracted from Yeo et al. 2011 17 network parcellation. 
 
 **References:**
 * Chan, M. Y., Park, D. C., Savalia, N. K., Petersen, S. E., & Wig, G. S. (2014). Decreased segregation of brain systems across the healthy adult lifespan. PNAS, 111(46). doi: 10.1073/pnas.1415122111
