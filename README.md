@@ -3,16 +3,26 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 
 [Chan et al. 2014](http://www.pnas.org/content/111/46/E4997)
 
-<img src="https://github.com/mychan24/Chan_RSFC_Nodes/blob/master/png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png" alt="RSFC 441 nodes" width="509" height="331">
+<img src="png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png" alt="RSFC 441 nodes" width="509" height="331">
 
 **Files:**
+
+## GIFTI (./gifti)
+The original nodes were made in gifti format (surfaces of L/R hemispheres). Thus it has more versions for visualiztion purposes. 
+
 1. **./gifti_single_column_power_labeled_nodes** contains the gifti filess (L/R) to visualize the 441 nodes with Power et al. 2011 system color-scheme. Each gifti file contains one column of data, where vertices that belong to a node is numbered based on which Power System they belong to. The color-scheme is specified in the header portion of the gifti file. When these files are loaded into HCP Workbench, all the nodes are shown on the same map. 
 
 2. **./gifti_multiple_columns** contains the gifti files (L/R) where individual nodes are represented on separate maps (separate columns in gifti data). The L hemisphere contains 221 nodes, and the R hemisphere contains 220 nodes. When these files are loaded into HCP Workbench, each node will be represented on their own map. 
 
 3. **./gifti_single_column_numbered_nodes** contains the gifti files (L/R) where nodes are represented on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
 
-4. **Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
+
+## CIFTI (./cifti)
+1. **./Chan_PNAS2014_411nodes_32k_fs_LR.dtseries.nii** is a CIFTI file where all the nodes are on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
+
+
+## Meta-data
+**Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
    * **NodeID:**                 Node numbered from 1 to 441. 
    * **MNI_x/y/z:**             Corresponding MNI coordinates of the node's center.
    * **Desikan-Killiany_aparc_label**
