@@ -3,7 +3,7 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 
 [Chan et al. 2014](http://www.pnas.org/content/111/46/E4997)
 
-<img src="https://github.com/mychan24/Chan_RSFC_Nodes/blob/master/png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png" alt="RSFC 441 nodes" width="509" height="331">
+![Chan 441 Nodset](png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png)*RSFC 441 nodes*
 
 **Files:**
 1. **.cifti/Chan_PNAS2014_441nodes_32k_fs_LR.dtseries.nii** is the cifti files with the Chan 441 nodes labeled by node ID on a single column.
@@ -13,12 +13,12 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
    * **./code/mask_and_export_minima.m** is a matlab script sourced by `Chan2014_NodeGeneration.sh` to export the minima to a text file. 
    * **./code/medialmask_${hemisphere}_fsmedial.fsLR.func.gii** are FreeSurfer medial walls in GIFTI files provided here for convenience. These can also be extracted from Yeo et al. 2011 17 network parcellation. 
 
-4. **.gifti files:**
+3. **.gifti files:**
    * **/gifti_single_column_power_labeled_nodes** contains the gifti filess (L/R) to visualize the 441 nodes with Power et al. 2011 system color-scheme. Each gifti file contains one column of data, where vertices that belong to a node is numbered based on which Power System they belong to. The color-scheme is specified in the header portion of the gifti file. When these files are loaded into HCP Workbench, all the nodes are shown on the same map. 
    * **./gifti/gifti_multiple_columns** contains the gifti files (L/R) where individual nodes are represented on separate maps (separate columns in gifti data). The L hemisphere contains 221 nodes, and the R hemisphere contains 220 nodes. When these files are loaded into HCP Workbench, each node will be represented on their own map. 
    * **./gifti/gifti_single_column_numbered_nodes** contains the gifti files (L/R) where nodes are represented on a single column, labeled by node number. The L hemisphere file contains node 1-221; the R hemisphere file contains node 222-441.
 
-5. **Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
+4. **Chan_RSFC_Nodes_PNAS2014_metadata.txt** is a tab delimited file that contains descriptions of the nodes:
    * **NodeID:**                 Node numbered from 1 to 441. 
    * **MNI_x/y/z:**             Corresponding MNI coordinates of the node's center.
    * **Desikan-Killiany_aparc_label**
