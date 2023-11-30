@@ -3,7 +3,7 @@ This package contains functional brain area (nodes) of the cerebral cortex gener
 
 [Chan et al. 2014](http://www.pnas.org/content/111/46/E4997)
 
-![Chan 441 Nodset](png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png)*RSFC 441 nodes*
+![Chan 441 Nodset](png/Chan2014_RSFC_441Nodes_PowerLabel_wh.png){width=509px height=331px>}
 
 **Files:**
 1. **.cifti/Chan_PNAS2014_441nodes_32k_fs_LR.dtseries.nii** is the cifti files with the Chan 441 nodes labeled by node ID on a single column.
